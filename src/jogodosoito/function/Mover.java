@@ -12,8 +12,8 @@ public class Mover {
 		String temp;
 		
 		if (Verificar.verificaEntrada(linhaBranca, colunaBranca, linhaInserido, colunaInserido) == false) {
-			System.out.println("\n Valor inserido não é válido!!");
-			System.out.println("Por gentileza, inserir um valor válido! \n");
+			System.out.println("Valor inserido não é válido para movimentação!!");
+			System.out.println("Por gentileza, escolha outro número! \n");
 			
 			return desafio;
 		}
